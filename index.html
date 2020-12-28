@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            COVID-19
+        </div>
+
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="cursor"></div>
+
+<div class="sec1">
+  <div class="flex-sec">
+    <h1>The Year 2020</h1>
+    <p>was a very bad year for a lot of people, That they lose a lot of family from COVID-19...</p>
+    <br>
+    <a href="#" class="flex-btn">Read More...</a>
+</div>
+</div>
+
+<div class="sec2">
+    <div class="parts">
+    <div class="part1">
+        <h1>Some info for COVID-19</h1>
+        <p>COVID-19 is caused by a coronavirus called SARS-CoV-2. <br> Older adults and people who have severe underlying medical conditions like heart or lung disease or diabetes seem to be at higher risk for developing more serious complications from COVID-19 illness.</p>
+    </div>
+
+    <div class="part2">
+        <h3 class="f1"><span class="f2">Cases:</span> <br> 81M</h3>
+        <h3 class="f1"><span class="f2">Recovered:</span> <br> 45.8M</h3>
+        <h3 class="f1"><span class="f2">Deaths:</span> <br> 1.77M</h3>
+    </div>
+</div>
+</div>
+
+
+    <script>
+        const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+    </script>
+</body>
+</html>
