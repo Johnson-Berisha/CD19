@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            COVID-19
+        </div>
+
+        <div class="links">
+            <a href="../index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="cursor"></div>
+
+<div class="sec1-right">
+  <div class="flex-sec">
+    <h1>Contact</h1>
+    <p>This is the Contact page.</p>
+</div>
+</div>
+
+<div class="sec4">
+    <form name="contact" class="form1"  method="POST" data-netlify="true">
+      <input type="text" placeholder="Name..." name="name">
+      <input type="email" placeholder="Email..." name="email">
+      <input type="text" name="message" placeholder="Message..." id="">
+      <input type="submit" value="Submit">
+      </form>
+</div>
+
+
+    <script>
+        const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+    </script>
+</body>
+</html>
