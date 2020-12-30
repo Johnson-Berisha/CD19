@@ -484,7 +484,7 @@ input[type="email"] {
 
     .sec3 {
         height: 55vh;
-        padding: 5em;
+        
     }
 
     .partss {
@@ -492,6 +492,7 @@ input[type="email"] {
     }
     .partsss {
         display: block;
+        padding: 5em;
     }
 
     .part3 {
