@@ -510,5 +510,33 @@ input[type="email"] {
     .part9 {
         width: 100%;
     }
+
+    .part7 {
+        width: 100%;
+    }
+
+    .part8 {
+        width: 100%;
+    }
+
+    .partssss {
+        display: block;
+    }
+
+    .sec2-op2 {
+        display: block;
+        width: 100%;
+        height: 125vh;
+        padding: 25px;
+    }
+
+    .sec2-op2 .img img {
+        left: 20%;
+    }
+
+    .sec2-op2 .img p {
+        width: 100%;
+        padding: 0;
+    }
 }
 
