@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  
+
+    <div class="cursor"></div>
+
+<div class="sec1-op">
+  <div class="flex-sec">
+    <h1>Info For How To Be Safe</h1>
+    <p>The title says it all.</p>
+    <br>
+    <a href="about.html" class="flex-btn">Go Back</a>
+</div>
+</div>
+
+<div class="sec2">
+    <div class="partssss">
+        <div class="part7">
+            <h1>How To Be Safe From Covid-19</h1>
+            <p>The best way to prevent illness is to avoid being exposed to this virus. Learn how COVID-19 spreads and practice these actions to help prevent the spread of this illness. To help prevent the spread of COVID-19, everyone should:
+            </p>
+        </div>
+        <div class="part8">
+            <ol class="f2">
+                <li>Clean your hands often, either with soap and water for 20 seconds or a hand sanitizer that contains at least 60% alcohol.</li>
+                <li>Avoid close contact with people who are sick.</li>
+                <li>Put distance between yourself and other people (at least 6 feet).</li>
+                <li>Cover your mouth and nose with a mask when around others.</li>
+                <li>Cover your cough or sneeze with a tissue, then throw the tissue in the trash.</li>
+                <li>Clean and disinfect frequently touched objects and surfaces daily.</li>
+                <li>CDC recommends that people wear masks in public settings and when around people outside of their household, especially when other social distancing measures are difficult to maintain.</li>
+                <li>Masks may help prevent people who have COVID-19 from spreading the virus to others.</li>
+            </ol>
+        </div>
+    </div>
+</div>
+<div class="sec2-op2">
+    <div class="img">
+    <img src="../tree.svg" alt="">
+    <h1>Happy New Year And Stay Safe!</h1>
+    <h3>This project was made by:<br> copyright&copy;easyCSSCreations</h3>
+    <br>
+    <p>Merry Christmas And Happy New Year, and please stay safe since when you do that you are saving other people's lives. Take COVID-19 seriously since it can do a lot of damage to many people even you or your family members. Covid-19 is extremely dangerous for everyone since it can affect everyone in different ways.</p>
+</div>
+</div>
+
+
+    <script>
+        const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("expand");
+
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500)
+})
+    </script>
+</body>
+</html>
