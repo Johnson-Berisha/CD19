@@ -455,3 +455,60 @@ input[type="email"] {
 .quote {
     font-size: 57px;
 }
+
+
+
+@media only screen and (max-width: 1440px) {
+    .sec1 .flex-sec h1 {
+        font-size: 39px;
+    }
+
+    .flex-sec {
+        padding: 15px;
+    }
+
+    .sec1 .flex-sec p {
+        font-size: 23px;
+    }
+
+    .header {
+        display: block;
+        height: 18vh;
+        text-align: center;
+    }
+
+    .sec2-other {
+        display: block;
+        height: 165vh;
+    }
+
+    .sec3 {
+        height: 55vh;
+    }
+
+    .partss {
+        display: block;
+    }
+    .partsss {
+        display: block;
+    }
+
+    .part3 {
+        width: 100%;
+    }
+
+    .part4 {
+        width: 100%;
+    }
+    .part5 {
+        width: 100%;
+    }
+    .part6 {
+        width: 100%;
+    }
+
+    .part9 {
+        width: 100%;
+    }
+}
+
