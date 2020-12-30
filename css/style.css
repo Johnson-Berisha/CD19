@@ -441,4 +441,17 @@ input[type="email"] {
     padding-right: 15em;
 }
 
+.part9 {
+    width: 25%;
+    text-align: center;
+}
 
+.partsssss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 57px;
+}
